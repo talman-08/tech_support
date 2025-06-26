@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* General body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+/* Navbar background and text */
+.custom-navbar {
+  background-color: black !important;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: white !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #00ffd5 !important;
+  transition: color 0.3s ease;
+}
+
+/* Headline (header) section */
+ 
+.headline-section {
+  background-color: white;
+  color: black;
+}
+
+
+/* Contact section */
+.contact-box {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+ 
+
+
+/* Optional: Footer font size */
+footer {
+  font-size: 0.9rem;
+}
